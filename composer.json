@@ -15,7 +15,7 @@
     "repositories": {
         "Mehrand/api-response" : {
             "type": "vcs",
-            "url": "git@github.com:MehranDashti/laravel-api-exception.git"
+            "url": "git@github.com:MehranDashti/laravel-api-response.git"
         }
     },
     "autoload": {
