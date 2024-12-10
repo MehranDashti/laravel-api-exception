@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "Mehrand/api-response": "2.*"
+        "Mehrand/api-response": "*"
     },
     "repositories": {
         "Mehrand/api-response" : {
