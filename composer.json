@@ -1,0 +1,34 @@
+{
+    "name": "mehrand/api-exceptions",
+    "description": "Exception list using in api which help you to easy manage your api exceptions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehran Dashti",
+            "email": "mehran19.md@gmail.com"
+        }
+    ],
+    "require": {
+        "Mehrand/api-response": "2.*"
+    },
+    "repositories": {
+        "Mehrand/api-response" : {
+            "type": "vcs",
+            "url": "git@github.com:MehranDashti/laravel-api-exception.git"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mehrand\\ApiExceptions\\": "src",
+            "Mehrand\\ApiExceptions\\Tests\\" : "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mehrand\\ApiExceptions\\Providers\\ApiExceptionServiceProvider"
+            ]
+        }
+    }
+}
